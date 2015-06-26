@@ -1,0 +1,14 @@
+services:
+    # zz_user.listener.kernel.controller_listener:
+    #     class: Zz\UserBundle\Listener\Kernel\ControllerListener
+    #     arguments: [@security.http_utils, @request_stack]
+    #     tags:
+    #         - { name:kernel.event_listener, event: kernel.controller, method: onKernelController }
+
+    # zz_user.listener.authentication.success_handler:
+    #     class: Zz\UserBundle\Listener\Authentication\SuccessHandler
+    #     arguments: [@security.http_utils, {}]
+
+    # zz_user.listener.logout.success_handler:
+    #     class: Zz\UserBundle\Listener\Logout\SuccessHandler
+    #     arguments: [@security.http_utils]

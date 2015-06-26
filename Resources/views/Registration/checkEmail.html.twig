@@ -1,0 +1,17 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block title %}Registration - {{ parent() }}{% endblock %}
+
+{% block fos_user_content %}
+	<div id="user_frame" >
+		<h1>
+			{{ 'registration.register.title' |trans }}
+		</h1>
+		
+		<p>
+			{{ 'registration.check_email' |trans({'%email%': user.email}) }}
+		</p>
+	</div>
+{% endblock fos_user_content %}

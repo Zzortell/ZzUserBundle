@@ -1,0 +1,13 @@
+{% extends '::base.html.twig' %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block title %}User - {{ parent () }}{% endblock %}
+
+{% block stylesheets %}
+	{# <link rel="stylesheet/less" type="text/css" href="{{ asset('bundles/zzalive/css/user.less') }}" /> #}
+{% endblock %}
+
+{% block body %}
+	{% block fos_user_content %}{% endblock %}
+{% endblock %}

@@ -1,0 +1,25 @@
+fos_user:
+    username:
+        already_used: Ce nom d'utilisateur est déjà utilisé.
+        blank: Veuillez entrer un nom d'utilisateur.
+        short: "[-Inf,Inf]Le nom d'utilisateur est trop court."
+        long: "[-Inf,Inf]Le nom d'utilisateur est trop long."
+    email:
+        already_used: Cette adresse e-mail est déjà utilisée.
+        blank: Veuillez entrer une adresse e-mail.
+        short: "[-Inf,Inf]L'adresse e-mail est trop courte."
+        long: "[-Inf,Inf]L'adresse e-mail est trop longue."
+        invalid: L'adresse e-mail est invalide.
+    password:
+        blank: Veuillez entrer un mot de passe.
+        short: "[-Inf,Inf]Le mot de passe est trop court."
+        mismatch: Les deux mots de passe ne sont pas identiques.
+    new_password:
+        blank: Veuillez entrer un nouveau mot de passe.
+        short: "[-Inf,Inf]Le nouveau mot de passe est trop court."
+    current_password:
+        invalid: Le mot de passe est invalide.
+    group:
+        blank: Veuillez entrer un nom.
+        short: "[-Inf,Inf]Le nom est trop court."
+        long: "[-Inf,Inf]Le nom est trop long."
